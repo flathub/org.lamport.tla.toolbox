@@ -1,6 +1,6 @@
 app-id: org.lamport.tla.toolbox
 runtime: org.freedesktop.Platform
-runtime-version: "19.08"
+runtime-version: '19.08'
 sdk: org.freedesktop.Sdk
 command: tlatoolbox
 
@@ -19,25 +19,25 @@ modules:
     sources:
       # Fetch TLA Toolbox release
       - type: archive
-        url: https://github.com/tlaplus/tlaplus/releases/download/v1.6.0/TLAToolbox-1.6.0-linux.gtk.x86_64.zip
-        sha256: c1622b4e21fc3985a276e8814478b702c23f20e4c114773f9a5ec9542b50199b
+        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.0/TLAToolbox-1.7.0-linux.gtk.x86_64.zip
+        sha256: a91c7d93ba7ecd490aed05da5988c7b6299ae279e0fbdbc97e34cdc642483f67
         x-checker-data:
           type: html
           url: https://api.github.com/repos/tlaplus/tlaplus/releases/latest
           version-pattern: https://github.com/tlaplus/tlaplus/releases/tag/v(\d\.\d\.\d)
-          url-template: 'https://github.com/tlaplus/tlaplus/releases/download/v$version/TLAToolbox-$version-linux.gtk.x86_64.zip'
-      
+          url-template: https://github.com/tlaplus/tlaplus/releases/download/v$version/TLAToolbox-$version-linux.gtk.x86_64.zip
+        size: 181538171
       # Desktop file.
       - type: file
         path: org.lamport.tla.toolbox.desktop
 
       # Icon file. Source: https://github.com/tlaplus/tlaplus/tree/master/toolbox/org.lamport.tla.toolbox.feature.branding/rootfiles
       - type: file
-        path: splash-256x256.png 
-      
+        path: splash-256x256.png
+
         # Icon file.
       - type: file
-        path: splash-480x480.png 
+        path: splash-480x480.png
 
       # AppData.
       - type: file
