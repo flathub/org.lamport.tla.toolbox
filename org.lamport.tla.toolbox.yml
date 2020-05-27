@@ -19,7 +19,7 @@ modules:
     sources:
       # Fetch TLA Toolbox release
       - type: archive
-        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.0/TLAToolbox-1.7.0-linux.gtk.x86_64.zip
+        url: https://github-production-release-asset-2e65be.s3.amazonaws.com/50906927/ed211a80-8729-11ea-867a-e1e1d2014462?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200527%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200527T161925Z&X-Amz-Expires=300&X-Amz-Signature=e57e91c4f611ffce3e28c6325689746e8e94b058b201436c45c90c57bec88ccd&X-Amz-SignedHeaders=host&actor_id=0&repo_id=50906927&response-content-disposition=attachment%3B+filename%3DTLAToolbox-1.7.0-linux.gtk.x86_64.zip&response-content-type=application%2Foctet-stream
         sha256: a91c7d93ba7ecd490aed05da5988c7b6299ae279e0fbdbc97e34cdc642483f67
         x-checker-data:
           type: html
