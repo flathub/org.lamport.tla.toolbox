@@ -14,7 +14,8 @@ add-extensions:
 
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   - --device=dri
@@ -28,9 +29,9 @@ modules:
     sources:
       # Fetch TLA Toolbox release
       - type: archive
-        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.0/TLAToolbox-1.7.0-linux.gtk.x86_64.zip
-        sha256: a91c7d93ba7ecd490aed05da5988c7b6299ae279e0fbdbc97e34cdc642483f67
-        size: 181538171
+        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.1/TLAToolbox-1.7.1-linux.gtk.x86_64.zip
+        sha256: 108af33356211ec276864877aed83be953099f08bb09c6aea27778113f80fefa
+        size: 182043677
       # Desktop file.
       - type: file
         path: org.lamport.tla.toolbox.desktop
