@@ -10,7 +10,7 @@ add-extensions:
     subdirectories: true
     no-autodownload: true
     autodelete: true
-    version: "19.08"
+    version: '19.08'
 
 finish-args:
   - --share=ipc
@@ -29,9 +29,8 @@ modules:
     sources:
       # Fetch TLA Toolbox release
       - type: archive
-        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.1/TLAToolbox-1.7.1-linux.gtk.x86_64.zip
-        sha256: 108af33356211ec276864877aed83be953099f08bb09c6aea27778113f80fefa
-        size: 182043677
+        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.0/TLAToolbox-1.7.0-linux.gtk.x86_64.zip
+        sha256: a91c7d93ba7ecd490aed05da5988c7b6299ae279e0fbdbc97e34cdc642483f67
         x-checker-data:
           type: html
           url: https://api.github.com/repos/tlaplus/tlaplus/releases/latest
