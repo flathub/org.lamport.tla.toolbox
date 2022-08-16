@@ -1,6 +1,6 @@
 app-id: org.lamport.tla.toolbox
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: tlatoolbox
 
@@ -10,7 +10,7 @@ add-extensions:
     subdirectories: true
     no-autodownload: true
     autodelete: true
-    version: "19.08"
+    version: "22.08"
 
 finish-args:
   - --share=ipc
