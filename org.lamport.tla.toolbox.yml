@@ -32,11 +32,6 @@ modules:
         url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.1/TLAToolbox-1.7.1-linux.gtk.x86_64.zip
         sha256: 108af33356211ec276864877aed83be953099f08bb09c6aea27778113f80fefa
         size: 182043677
-        x-checker-data:
-          type: html
-          url: https://api.github.com/repos/tlaplus/tlaplus/releases/latest
-          version-pattern: https://github.com/tlaplus/tlaplus/releases/tag/v(\d\.\d\.\d)
-          url-template: https://github.com/tlaplus/tlaplus/releases/download/v$version/TLAToolbox-$version-linux.gtk.x86_64.zip
       # Desktop file.
       - type: file
         path: org.lamport.tla.toolbox.desktop
