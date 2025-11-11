@@ -1,6 +1,6 @@
 app-id: org.lamport.tla.toolbox
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: tlatoolbox
 
@@ -10,7 +10,7 @@ add-extensions:
     subdirectories: true
     no-autodownload: true
     autodelete: true
-    version: "22.08"
+    version: "25.08"
 
 finish-args:
   - --share=ipc
@@ -29,9 +29,8 @@ modules:
     sources:
       # Fetch TLA Toolbox release
       - type: archive
-        url: https://github.com/tlaplus/tlaplus/releases/download/v1.7.1/TLAToolbox-1.7.1-linux.gtk.x86_64.zip
-        sha256: 108af33356211ec276864877aed83be953099f08bb09c6aea27778113f80fefa
-        size: 182043677
+        url: https://github.com/tlaplus/tlaplus/releases/download/v1.8.0/TLAToolbox-1.8.0-linux.gtk.x86_64.zip
+        sha256: 011c830251e8bd9bb755ed604aa8a880b97272a8ab2fea2fbc61b5ff018c90d5
       # Desktop file.
       - type: file
         path: org.lamport.tla.toolbox.desktop
