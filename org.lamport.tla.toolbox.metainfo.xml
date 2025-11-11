@@ -6,8 +6,8 @@
     <name xml:lang="es">Herramientas de TLA+</name>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>MIT</project_license>
-    <developer_name>Microsoft Corporation</developer_name>   
-    <developer_name xml:lang="es">Microsoft Corporation</developer_name>   
+    <developer_name>TLA+ Foundation</developer_name>   
+    <developer_name xml:lang="es">Fundacion TLA+</developer_name>   
     <summary>TLA+ Toolbox is an IDE (integrated development environment) for the TLA+ tools</summary>
     <summary xml:lang="es">TLA+ Toolbox es un entorno de desarrollo integrado para las herramientas TLA+</summary>
 
@@ -22,7 +22,7 @@
     <launchable type="desktop-id">org.lamport.tla.toolbox.desktop</launchable>
 
     <screenshots>
-        <screenshot>
+        <screenshot type="default">
             <image>https://raw.githubusercontent.com/jesmg/org.lamport.tla.toolbox/master/screenshots/screenshot-1.png</image>
         </screenshot>
         <screenshot>
@@ -58,6 +58,7 @@
 
     </description>   
       <releases>
+          <release version="1.8.0" date="2025-11-05"/>
           <release version="1.7.1" date="2021-01-28"/>
           <release version="1.7.0" date="2020-04-25"/>
           <release version="1.6.1" date="2020-04-01"/>
