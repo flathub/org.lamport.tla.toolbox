@@ -26,6 +26,8 @@ modules:
 
   - name: tlatoolbox
     no-autogen: true
+    build-options:
+      no-debuginfo: true
     sources:
       # Fetch TLA Toolbox release
       - type: archive
